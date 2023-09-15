@@ -12,7 +12,7 @@
         span{
             color: chartreuse;
         }
-        #list
+        /*#list
         {
             color: #f44336;
             background-color: #FFEB3B;
@@ -28,7 +28,20 @@
             margin-bottom: 10px;*/
             margin: 10px 20px 10px 20px;
         
+        }*/
+       
+        
+        #list::before
+        {
+            content: 👍🏻;
         }
+        h1::before
+        {
+           content: "👍";
+            
+        }
+        
+
     </style>
 </head>
 <body>
@@ -38,7 +51,7 @@
     
     <P>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH.</P>
     <h1>Professional Summary  </h1>
-    <ul>
+    <ul class="prof">
         <li>Having I years of experience indeveloping Single Page \Veb Application using <span>Angular 8</span>,HTML5,CSS3,Bootstrap 5,JavaScript,TypeScript</li>
         <li id="list">Experince on working with version controls system-GIT and GitHub</li>
         <li>Experince working with JIRA for user stories and bug tracking</li>

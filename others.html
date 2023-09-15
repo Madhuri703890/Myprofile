@@ -4,12 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hobbies & Personal Strenght</title>
+    <style>
+      /*h1::after
+        {
+            content: "👍
+            
+        }*/
+        .hobbies::selection
+        {
+            color: aqua;
+           
+        }
+        .hobbies::before
+        {
+            content:👍 ;
+        }
+        li::selection
+        {
+            color: brown;
+            background-color:yellow;
+        }
+        
+    </style>
 </head>
+
 <body>
-    <h2>
-        My Hobbies
-    </h2>
-    <ul>
+    <h1>my</h1>
+    <li class="hobbies">My Hobbies</li>
+    <ul >
         <li>Reading</li>
         <li>Watching movies</li>
         <li>Coding</li>

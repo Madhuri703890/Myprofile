@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <span><h1>Application Form</h1></span>
+        </legend>
+    
+    
+    
+    <table>
+        <tbody>
+            <tr>
+                <td><label for="">Full Name</label></td>
+                <td><input type="text" autofocus maxlength="40" placeholder="Complete Full name"></td>
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="text" placeholder="Ex.abc@gmail.com" required></td>
+            </tr>
+          <tr>
+             <td><label for="">Password</label></td>
+             <td><input type="password" ></td>
+          </tr>
+          <tr>
+              <td><label for="">Contact Number</label></td>
+              <td><input type="number" maxlength="12"></td>
+          </tr>
+          <tr>
+              <td><label for="">Profile Photo</label></td>
+              <td><input type="file"></td>
+          </tr>
+          <tr>
+              <td><label for="">Date Of Birth</label></td>
+              <td><input type="date" required></td>
+          </tr>
+          <td><label for="">Gender</label></td>
+         <td><input type="radio" name="gender" >Female
+            <input type="radio" name="gender" > Male
+            <input type="radio" name="gender" >Transgender
+        </td>
+    </tr>
+
+        <tr>
+            <td><label for="">Marital Status</label></td>
+            <td>
+                <input type="radio" name="status" >Yes
+                <input type="radio" name="status" >No
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Known Tool & Technology</label></td>
+            <td><input type="checkbox" name="tools">Angular
+                <input type="checkbox" name="tools">React
+                <input type="checkbox" name="tools">Python
+                <input type="checkbox" name="tools">Java
+                <input type="checkbox" name="tools">Jenkin
+                <input type="checkbox" name="tools">GIT
+                <input type="checkbox" name="tools">Database
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Designation</label></td>
+            <td>
+                <select name="" id="Designation">
+                    <option value="">UI Developer</option>
+                    <option value="">Backend Developer</option>
+                    <option value="">Full stack Developer</option>
+                    <option value="">DevOps Engineer</option>
+                    <option value="">Tester</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="">Country</label></td>
+            <td><input type="text" value="India" readonly></td>
+        </tr>
+        <tr>
+            <td><label for="">Present Address</label></td>
+            <td><textarea  cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="submit"></td>
+            <td><input type="reset" value="Reset"></td>
+        </tr>
+        </tbody>
+    </table>
+</fieldset>
+</body>
+</html>
