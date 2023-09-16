@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Calculator</title>
+    <style>
+      form {
+        width: 500px;
+        height: 450px;
+        border: 2px;
+        border-radius: 20px;
+        border-style: solid;
+        position: static;
+        align-items: center;
+      }
+      input[type="text"],
+      select[name="discountValue"],
+      input[type="button"] {
+        width: 90%;
+        padding: 10px 10px 10px 10px;
+
+        margin: 10px 10px 10px 20px;
+        box-sizing: border-box;
+        /*border-color: aqua;*/
+        background-color: bisque;
+      }
+      input[type="button"]:hover {
+        color: burlywood;
+      }
+      input[type="button"] {
+        background-color: #4caf50;
+        border-radius: 8px;
+        color:white;
+        font-size: large;
+        font-family: cursive;
+      }
+      h3 {
+        font-family: cursive;
+        align-items: center;
+        padding: 5px 10px 5px 10px;
+        margin: 5px 10px 5px 10px;
+        color: cadetblue;
+        font-size: large;
+      }
+      h1 {
+        padding-left: 10%;
+        color: cadetblue;
+        text-transform: uppercase;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      /*Form Center Alignment*/
+      .form-center form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="form-center">
+      <form action="">
+        <h1>Discount calculator</h1>
+
+        <h3>Enter the Bill amount and discount in percentage</h3>
+
+        <h3>Bill Amount</h3>
+        <input type="text" value="Enter Amount" />
+        <h3>Discount Percentage</h3>
+        <select name="discountValue" id="">
+          <option value="">10</option>
+          <option value="">20</option>
+          <option value="">30</option>
+          <option value="">40</option>
+          <option value="">50</option>
+        </select>
+
+        <input type="button" value="Calculate" id="buttonFont" />
+
+        <h3>Total Discount amount</h3>
+      </form>
+    </div>
+  </body>
+</html>
